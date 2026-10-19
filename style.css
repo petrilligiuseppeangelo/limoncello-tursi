@@ -2,19 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
 }
 
 img {
-    max-width: 1024px;
+    max-width: 768px;
     height: auto;
     border-radius: 25px;
-    box-shadow: 5px 10px 25px #ffee00be;
+    box-shadow: 5px 10px 25px #000000be;
     margin: 10px;
     margin-bottom: 20px;
+    
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 10px 15px 30px #000000be;
+    }
 }
 
 body {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdAI9XWSmIO2dpsG6Vy6-uqZ-LFoUhoUYyjfykpTfHDw&s=10),
+    background-image: url("img/background.jpg"),
     linear-gradient(to bottom, #000000, #000000);
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -28,13 +36,29 @@ main {
 }
 
 header {
-    background-color: #419e3e;
-    margin: 20px;
+    background-color: #39812fce;
+    backdrop-filter: blur(10px);
+    margin: 20px auto;
     padding: 20px;
     box-shadow: 5px 10px 25px #000000be;
     border-radius: 25px;
+    width: 85%;
+    position: sticky;
+    top: 15px;
+    z-index: 1;
+
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 10px 10px 35px #000000be;
+    }
     & h2 {
         text-align: center;
+    }
+    & a {
+        font-weight: 700;
+        font-size: 2rem;
     }
 }
 
@@ -46,17 +70,25 @@ nav {
 
     padding: 10px;
     margin: 10px;
-    background-color: #bb540f;
+    background-color: #c57813c9;
+    backdrop-filter: blur(10px);
     font-size: 45px;
     width: 45%;
     border-radius: 25px;
     box-shadow: 5px 5px 15px #000000be;
+
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 10px 10px 25px #000000be;
+    }
 }
 
 h1 {
-    font-size: 82px;
+    font-size: 3.5rem;
     text-align: center;
     color: yellow;
+
     text-shadow:
         0 5px 15px rgba(0, 0, 0, 0.7),
         0 0 24px rgba(0, 0, 0, 0.4);
@@ -64,7 +96,7 @@ h1 {
 
 h2 {
     color: yellow;
-    font-size: 52px;
+    font-size: 2rem;
     margin : 10px;
     text-shadow:
         0 5px 10px rgba(0, 0, 0, 0.7),
@@ -86,7 +118,7 @@ a {
 
 figcaption {
     font-size: 30px;
-    color: #ffff00;
+    color: #ffffff;
     font-weight: 700;
     margin-bottom: 10px;
     text-shadow:
@@ -95,13 +127,22 @@ figcaption {
 }
 
 section {
-    background-color: #7fc240;
+    background-color: #f0c16ad0;
+    backdrop-filter: blur(10px);
     margin: 30px;
     padding: 20px;
-    width: 75%;
+    width: 50%;
     border-radius: 25px;
-    box-shadow: 10px 10px 25px #ffee00be;
-    z-index: -1;
+    box-shadow: 10px 10px 25px #000000be,
+        -10px -10px 25px #000000be;
+
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 15px 15px 35px #000000be,
+            -15px -15px 35px #000000be;
+    }
 }
 
 footer {
@@ -136,6 +177,7 @@ footer {
     }
 }
 
+
 @media (max-width:1280px) {
     img {
         max-width: 90%;
@@ -155,6 +197,9 @@ footer {
 
     h2 {
         font-size: 40px;
+    }
+    section {
+        width: 65%;
     }
 }
 
@@ -183,6 +228,10 @@ footer {
         text-align: center;
     }
 
+    header a {
+        font-size: large;
+    }
+
     a {
         font-size: medium;
         display: block;
@@ -191,13 +240,13 @@ footer {
     }
 
     section {
-        margin: 5px;
+        margin: 25px 5px;
         padding: 5px;
         padding-left: 15px;
+        width: 75%;
     }
 
     figure {
-
         padding: 10px;
     }
 
@@ -208,8 +257,8 @@ footer {
 
     figcaption {
         font-size: medium;
-        color: #000000;
         margin-bottom: 0;
+        text-shadow: 5px 10px 15px #000000be;
     }
 
     footer {

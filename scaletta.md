@@ -61,6 +61,17 @@ Con casella di testo e domande per organizzare la prenotazione
 # PREVENTIVO
 
 SITO WEB BASE = €150
+
+COPYWRITING + 25
+ANIMAZIONI + 25
+FOTOGRAFIA + 100 **SOLO + 50**
+SEO + 50 **INCLUSA**
+**TOTALE = 250** **350 DICHIARATI**
+
+**FACOLTATIVI CONSIGLIATI**
 MENÙ + 50
 PRENOTAZIONI + 100
-**TOTALE = 300**
+ACCESSIBILITÀ + 25 (occasionalmente inclusa)
+
+**TOTALE FULL OPTIONAL = 400**
+**SPESE EXTRA = €20 acquisto dominio hosting (con lavoro di pubblicazione incluso)**
