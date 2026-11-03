@@ -64,9 +64,9 @@ SITO WEB BASE = €150
 
 COPYWRITING + 25
 ANIMAZIONI + 25
-FOTOGRAFIA + 100 **SOLO + 50**
-SEO + 50 **INCLUSA**
-**TOTALE = 250** **350 DICHIARATI**
+SEO + 50
+**TOTALE = 250**
+**(€350 con la fotografia a mio carico)**
 
 **FACOLTATIVI CONSIGLIATI**
 MENÙ + 50
@@ -74,4 +74,4 @@ PRENOTAZIONI + 100
 ACCESSIBILITÀ + 25 (occasionalmente inclusa)
 
 **TOTALE FULL OPTIONAL = 400**
-**SPESE EXTRA = €20 acquisto dominio hosting (con lavoro di pubblicazione incluso)**
+**SPESE EXTRA = €10/15 acquisto dominio hosting (con lavoro di pubblicazione incluso)**

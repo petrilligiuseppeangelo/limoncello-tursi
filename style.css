@@ -29,10 +29,11 @@ body {
     background-size: cover;
 }
 
-main {
+MAIN {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 header {
@@ -128,11 +129,24 @@ figcaption {
 
 section {
     background-color: #f0c16ad0;
-    backdrop-filter: blur(10px);
     margin: 30px;
     padding: 20px;
-    width: 50%;
+    width: 55%;
     border-radius: 25px;
+
+    & mark {
+        background-color: #5ab443;
+        padding: 3px;
+        color: #000000;
+        font-weight: 700;
+    }
+
+    & p {
+        font-size: x-large;
+        font-weight: 700;
+        margin: 15px;
+    }
+
     box-shadow: 10px 10px 25px #000000be,
         -10px -10px 25px #000000be;
 
@@ -177,6 +191,20 @@ footer {
     }
 }
 
+p a {
+    font-size: inherit !important;
+}
+@media (max-width:1740px) {
+    img {
+        max-width: 85%;
+    }
+
+    nav {
+        width: 65%;
+        font-size: 40px;
+        gap : 1.5em;
+    }
+}
 
 @media (max-width:1280px) {
     img {
@@ -200,6 +228,16 @@ footer {
     }
     section {
         width: 65%;
+    }
+    nav {
+        width: 90%;
+        font-size: 30px;
+        gap : 0.5em;
+    }
+
+    footer nav {
+        width: 65%;
+        font-size: 20px;
     }
 }
 
@@ -244,6 +282,10 @@ footer {
         padding: 5px;
         padding-left: 15px;
         width: 75%;
+         & p {
+            font-size: large;
+            margin: 5px;
+         }  
     }
 
     figure {
